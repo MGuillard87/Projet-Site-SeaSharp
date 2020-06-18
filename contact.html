@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/66de9ed915.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,800|Baskervville:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+    <body>
+        <header>
+                <div class="containerNav">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo SeaSharp"></a>
+                    <div class="icon_burger">
+                        <hr class="top">
+                        <hr class="mid1">
+                        <hr class="mid2">
+                        <hr class="bot">
+                    </div>
+                    <nav class="nav">
+                        <ul>
+                            <li><img src="img/gouv_menu.png" alt="Image gouvernail"><a href="index.html">Accueil</a></li>
+                            <li><img src="img/gouv_menu.png" alt="Image gouvernail"><a href="service.html">Service</a></li>
+                            <li><img src="img/gouv_menu.png" alt="Image gouvernail"><a href="team.html">Equipage</a></li>
+                            <li><img src="img/gouv_menu.png" alt="Image gouvernail"><a href="contact.html" class="actif">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <div class="hero">
+            <h1 class="title_hero"><span>Sea</span>Sharp</h1>
+        </div>
+        <main class="container">
+            <h2 class="title_gen margin_services">Contact</h2>
+            <form action="https://httpbin.org/post" class="margin_services row justify-content-center" method="POST">
+                <div class="form-group mx-5 col-sm-8 col-md-6 col-lg-4 ">
+                    <label class="p_default" for="nom">Nom</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Ex: Faure Daran" name="nom">
+                </div>
+                <div class="form-group mx-5 col-sm-8 col-md-6 col-lg-4 ">
+                    <label class="p_default" for="prenom">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Ex: Baptiste" name="prenom">
+                </div>
+                <div class="form-group mx-5 col-sm-8 col-md-6 col-lg-4">
+                    <label class="p_default" for="mail">Adresse Mail</label>
+                    <input type="text" class="form-control" id="mail" placeholder="Ex: baptiste.fauredaran@free.fr" name="mail"> 
+                </div>
+                <div class="text_area form-group col-12 text-center">
+                    <div class="row justify-content-center">
+                        <label for="description" class="p_default col-12">Description</label>
+                        <textarea name="description" class="form-control col-8" id="description" placeholder="Ecrivez ici votre requête"></textarea>
+                    </div>
+                </div>
+                <div class="col-12>
+                    <div class="form-group col-6 mx-auto justify-content-center">
+                        <button type="submit" class="p_default btn btn-primary" target="_blank">Envoyer</button>
+                    </div>
+                </div>
+            </form> 
+            <div class="separete">
+                <img src="img/traitSeparation.png" alt="Barre de Séparation">
+            </div>
+            <div id="map-container-google-11" class="margin_services col-12 mx-auto">
+                <iframe class="iframe_contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.4365843107475!2d9.450213400911233!3d42.69447563700233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d7240920cab21b%3A0xaa471759b579eaf2!2sQuai%20Albert%20Gillio%2C%20Bastia!5e0!3m2!1sfr!2sfr!4v1576577780816!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+            <!--Buttons-->
+            <br>      
+            <div class="margin_services row text-center">
+              <div class="contact_info col-md-4">
+                <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                <p class="p_default">Bastia, CP 20600</p>
+                <p class="p_default">France</p>
+              </div>
+              <div class="contact_info col-md-4">
+                <i class="fas fa-phone"></i>
+                <a class=" p_default btn-floating blue accent-1" href="tel:+33 06 85 26 52 47">+33 06 85 26 52 47</a>
+                <p class="p_default">Mardi - Samedi, 9:00-17:00</p>
+              </div>
+              <div class="contact_info col-md-4">
+                <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                <a class="p_default" href="mailto:seasharp@gmail.com ">SeaSharp@gmail.com</a>
+                <a class="p_default" href="mailto:saleSeaSharp@gmail.com ">SaleSeaSharp@gmail.com</a>
+              </div>
+            </div>
+        </main>
+        <footer>
+            <div class="picture_footer">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="button_foot">
+                <a href="https://www.facebook.com/Sea-Sharp-109049100587778/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/company/34659727/admin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Toute reproduction totale ou partielle des logos, images, scripts, code HTML, balises meta effectuée à partir 
+                        des éléments du site sans notre autorisation expresse est prohibée au sens de l’article L.713-2 du Code de la propriété intellectuelle.</p>
+            </div>
+        </footer>
+    </body>
+</html>
